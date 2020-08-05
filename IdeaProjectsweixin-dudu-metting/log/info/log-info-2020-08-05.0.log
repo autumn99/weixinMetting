@@ -1,0 +1,195 @@
+2020-08-05 12:07:15.664 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 6932 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 12:07:15.671 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 12:07:16.974 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 12:07:16.986 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 12:07:16.987 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 12:07:17.030 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 12:07:17.305 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 12:07:17.305 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1557 ms
+2020-08-05 12:07:17.453 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 12:07:17.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 12:07:17.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 12:07:17.586 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 3.113 seconds (JVM running for 5.989)
+2020-08-05 12:08:39.322 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 12:08:39.322 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 12:08:39.326 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 19:45:54.456 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 9988 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 19:45:54.459 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 19:45:55.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 19:45:55.614 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:45:55.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 19:45:55.616 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 19:45:55.708 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 19:45:55.708 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1181 ms
+2020-08-05 19:45:55.832 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 19:45:55.974 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:45:56.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 19:45:56.012 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.326 seconds (JVM running for 4.444)
+2020-08-05 19:46:49.609 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 19:46:49.610 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 19:46:49.614 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 19:52:46.117 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 17420 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 19:52:46.120 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 19:52:47.166 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 19:52:47.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:52:47.176 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 19:52:47.176 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 19:52:47.283 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 19:52:47.283 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1121 ms
+2020-08-05 19:52:47.410 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 19:52:47.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:52:47.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 19:52:47.552 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.155 seconds (JVM running for 3.441)
+2020-08-05 19:52:58.341 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 19:52:58.341 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 19:52:58.345 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 19:54:08.980 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 1436 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 19:54:08.983 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 19:54:10.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 19:54:10.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:54:10.105 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 19:54:10.105 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 19:54:10.216 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 19:54:10.216 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1157 ms
+2020-08-05 19:54:10.356 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 19:54:10.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:54:10.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 19:54:10.484 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.182 seconds (JVM running for 3.483)
+2020-08-05 19:54:15.735 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 19:54:15.736 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 19:54:15.741 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-08-05 19:54:57.366 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 14656 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 19:54:57.369 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 19:54:58.463 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 19:54:58.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:54:58.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 19:54:58.477 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 19:54:58.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 19:54:58.602 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1192 ms
+2020-08-05 19:54:58.774 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 19:54:58.885 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:54:58.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 19:54:58.909 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.189 seconds (JVM running for 3.422)
+2020-08-05 19:55:02.779 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 19:55:02.779 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 19:55:02.784 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 19:58:34.647 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 15284 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 19:58:34.650 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 19:58:36.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 19:58:36.113 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:58:36.114 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 19:58:36.115 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 19:58:36.222 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 19:58:36.222 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1526 ms
+2020-08-05 19:58:36.354 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 19:58:36.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 19:58:36.486 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 19:58:36.495 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.546 seconds (JVM running for 3.877)
+2020-08-05 19:58:50.398 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 19:58:50.398 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 19:58:50.403 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 21:15:49.814 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 6920 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:15:49.817 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:15:50.989 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:15:51.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:15:51.001 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:15:51.002 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:15:51.113 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:15:51.113 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1214 ms
+2020-08-05 21:15:51.254 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:15:51.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:15:51.388 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:15:51.396 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.277 seconds (JVM running for 3.596)
+2020-08-05 21:17:08.292 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:17:08.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:17:08.298 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-08-05 21:18:10.712 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 104 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:18:10.715 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:18:11.768 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:18:11.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:18:11.780 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:18:11.781 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:18:11.898 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:18:11.898 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1131 ms
+2020-08-05 21:18:12.046 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:18:12.170 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:18:12.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:18:12.198 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.149 seconds (JVM running for 3.478)
+2020-08-05 21:18:33.822 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:18:33.827 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:18:33.850 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2020-08-05 21:42:23.295 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 8924 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:42:23.297 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:42:24.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:42:24.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:42:24.421 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:42:24.422 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:42:24.534 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:42:24.535 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1167 ms
+2020-08-05 21:42:24.658 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:42:24.788 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:42:24.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:42:24.825 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.204 seconds (JVM running for 3.541)
+2020-08-05 21:42:31.941 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:42:31.941 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:42:31.947 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-08-05 21:49:12.440 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 2572 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:49:12.445 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:49:13.452 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:49:13.460 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:49:13.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:49:13.461 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:49:13.555 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:49:13.555 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 962 ms
+2020-08-05 21:49:13.682 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:49:13.811 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:49:13.828 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:49:13.836 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.102 seconds (JVM running for 3.377)
+2020-08-05 21:49:19.628 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:49:19.628 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:49:19.633 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-08-05 21:51:49.311 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 21900 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:51:49.316 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:51:50.275 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:51:50.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:51:50.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:51:50.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:51:50.400 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:51:50.401 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 999 ms
+2020-08-05 21:51:50.537 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:51:50.651 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:51:50.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:51:50.676 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.044 seconds (JVM running for 3.35)
+2020-08-05 21:52:04.875 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:52:04.875 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:52:04.880 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 21:52:31.856 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 15136 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 21:52:31.860 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 21:52:32.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 21:52:32.835 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:52:32.836 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 21:52:32.836 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 21:52:32.947 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 21:52:32.947 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1014 ms
+2020-08-05 21:52:33.090 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:52:33.203 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 21:52:33.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 21:52:33.231 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.073 seconds (JVM running for 3.281)
+2020-08-05 21:52:41.122 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:52:41.122 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:52:41.127 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-05 22:05:36.252 [main] INFO  com.example.DuduMeetingWeixinApplication - Starting DuduMeetingWeixinApplication on LAPTOPCT-4FTFO075 with PID 20492 (E:\IdeaProjects\weixin-dudu-metting\dudu-metting-ct\dudu-meeting-weixin\target\classes started by 20252 in E:\IdeaProjects\weixin-dudu-metting)
+2020-08-05 22:05:36.255 [main] INFO  com.example.DuduMeetingWeixinApplication - No active profile set, falling back to default profiles: default
+2020-08-05 22:05:37.219 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-05 22:05:37.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-05 22:05:37.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-05 22:05:37.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-05 22:05:37.348 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-05 22:05:37.348 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1010 ms
+2020-08-05 22:05:37.490 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:05:37.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-05 22:05:37.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-05 22:05:37.643 [main] INFO  com.example.DuduMeetingWeixinApplication - Started DuduMeetingWeixinApplication in 2.081 seconds (JVM running for 3.364)
+2020-08-05 22:07:35.797 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 22:07:35.798 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-05 22:07:35.802 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms

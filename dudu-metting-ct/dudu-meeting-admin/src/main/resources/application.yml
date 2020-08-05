@@ -1,0 +1,10 @@
+server:
+  port: 8843
+
+spring:
+  application:
+    name: dudu-metting-admin
+
+logging:
+  config: classpath:logback-spring.xml
+
