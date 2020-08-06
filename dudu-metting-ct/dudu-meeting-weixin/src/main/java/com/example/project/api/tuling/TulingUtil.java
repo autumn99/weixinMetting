@@ -84,8 +84,9 @@ public class TulingUtil {
             if (result.equals("请求次数超限制!")) {
                 i++;
                 if (i>apiKey.length-1){
+                    i=0;
                     result="机器人休息";
-                    i--;
+                    //i--;
                     return result;
                 }
                 return sendMessage(msg);

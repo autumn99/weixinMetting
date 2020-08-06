@@ -72,19 +72,19 @@ public class MenuManager {
 		ViewButton btn10 = new ViewButton();
 		btn10.setName("清纯");
 		btn10.setType("view");
-		btn10.setUrl("http://vivo.cn/17MQoH");
+		btn10.setUrl("https://m.baidu.com/sf/vsearch?pd=image_content&word=%E7%BE%8E%E5%A5%B3%E5%9B%BE%E7%89%87&tn=vsearch&atn=page&sa=vs_ala_img&fr=alawise&cardserver=2&title=%E7%BE%8E%E5%A5%B3%E5%9B%BE%E7%89%87&lid=11996303337073768294&referlid=11996303337073768294&ms=1&frsrcid=4&frorder=1");
 		
 		
 //-------------------------------------------------------
 		CommonButton btn20 = new CommonButton();
-		btn20.setName("性感");
+		btn20.setName("");
 		btn20.setType("click");
 		btn20.setKey("1");
 		
 		ViewButton btn21 = new ViewButton();
 		btn21.setName("诱惑");
 		btn21.setType("view");
-		btn21.setUrl("http://vivo.cn/17MQoH");
+		btn21.setUrl("https://m.baidu.com/sf/vsearch?pd=image_content&word=%E7%BE%8E%E5%A5%B3%E5%9B%BE%E7%89%87&tn=vsearch&atn=page&sa=vs_ala_img&fr=alawise&cardserver=2&title=%E7%BE%8E%E5%A5%B3%E5%9B%BE%E7%89%87&lid=11996303337073768294&referlid=11996303337073768294&ms=1&frsrcid=4&frorder=1");
 
 //------------------------------------------------------------		
 		CommonButton btn31 = new CommonButton(); //返回图文消息
@@ -99,7 +99,7 @@ public class MenuManager {
 
 		ComplexButton mainBtn2 = new ComplexButton();
 		mainBtn2.setName("刺激");  //
-		mainBtn2.setSub_button(new Button[] { btn20,btn21});
+		mainBtn2.setSub_button(new Button[] { btn21});
 
 		ComplexButton mainBtn3 = new ComplexButton();
 		mainBtn3.setName("e");// btn31, btn32, btn33,

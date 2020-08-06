@@ -5,6 +5,9 @@ import com.example.project.weixin.pojo.Menu;
 import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -22,6 +25,7 @@ import java.net.URL;
  * 公众平台通用接口工具类
  * 
  */
+
 public class WeixinUtil {
 	private static Logger log = LoggerFactory.getLogger(WeixinUtil.class);
 
@@ -101,6 +105,7 @@ public class WeixinUtil {
 	 * @param appsecret 密钥
 	 * @return
 	 */
+
 	public static AccessToken getAccessToken(String appid, String appsecret) {
 		AccessToken accessToken = null;
 
@@ -140,6 +145,7 @@ public class WeixinUtil {
 
 		// 拼装创建菜单的url
 		String url = menu_create_url.replace("ACCESS_TOKEN", accessToken);
+
 		// 将菜单对象转换成json字符串
 		String jsonMenu = JSONObject.fromObject(menu).toString();
 		System.out.println(jsonMenu);
