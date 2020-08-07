@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<title>订机票城市选择下拉菜单效果 带智能输入提示效果 - H-ui前端框架代码特效</title>
+<meta name="keywords" content="订机票城市选择下拉菜单效果,智能输入提示效果,表单代码特效,H-ui前端框架">
+<meta name="description" content="H-ui前端框架表单代码特效订机票城市选择下拉菜单效果 带智能输入提示效果">
+<link href="http://static.h-ui.net/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+html,body{height:auto;}
+#suggest, #suggest2 {width:400px;}
+.gray {color:gray;}
+.ac_results {background:#fff;border:1px solid #7f9db9;position: absolute;z-index: 10000;display: none;}
+.ac_results li a {white-space: nowrap;text-decoration:none;display:block;color:#05a;padding:1px 3px;}
+.ac_results li {border:1px solid #fff;}
+.ac_over, .ac_results li a:hover {background:#c8e3fc;}
+.ac_results li a span {float:right;}
+.ac_result_tip {border-bottom:1px dashed #666;padding:3px;}
+</style>
+</head>
+<body>
+<input type="hidden" name="arrcity_3word" id="arrcity_3word" value="" />
+<label for="arrcity">出发城市：</label><input class="input-text inline" type="text" name="arrcity" id="arrcity" />
+<div id="suggest" class="ac_results"></div>
+<label for="city2">目的城市：</label><input class="input-text inline" type="text" name="city2" id="city2" />
+<div id='suggest2' class="ac_results"> </div>
+
+<script type="text/javascript" src="http://lib.h-ui.net/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="airCity.js"></script>
+<script type="text/javascript" src="dimensions.js"></script>
+<script type="text/javascript" src="suggest.js"></script>
+<script type="text/javascript">
+    /*调用插件*/
+    $(function(){
+        var cityss = new Array();
+        var commoncityss = new Array();
+
+        $.ajax({
+            url:"query",
+            dataType:"json",
+            success:function (list) {
+                for (var i = 0; i <list.length ; i++) {
+                    cityss[i] = new Array(list[i].institutionID,list[i].institutionName,list[i].institutionID);
+                }
+
+                for (var i = 0; i < 10; i++) {
+                    commoncityss[i] = new Array(list[i].institutionID,list[i].institutionName,list[i].institutionID);
+                }
+                $("#arrcity").suggest(citys,{hot_list:commoncitys,dataContainer:'#arrcity_3word',onSelect:function(){$("#city2").click();},attachObject:'#suggest'})
+                $("#city2").suggest(cityss,{hot_list:commoncityss,attachObject:"#suggest2"})
+            }
+        })
+
+
+
+        /*$("#arrcity").suggest(citys,{hot_list:commoncitys,dataContainer:'#arrcity_3word',onSelect:function(){$("#city2").click();},attachObject:'#suggest'});*/
+        /*$("#city2").suggest(citys,{hot_list:commoncitys,attachObject:"#suggest2"});*/
+    });
+
+</script>
+<!--以下是H-ui网站的统计代码 可以干掉-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?080836300300be57b7f34f4b3e97d911";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F080836300300be57b7f34f4b3e97d911' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>
