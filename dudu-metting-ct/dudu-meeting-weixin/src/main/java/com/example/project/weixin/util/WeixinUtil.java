@@ -5,9 +5,6 @@ import com.example.project.weixin.pojo.Menu;
 import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;

@@ -1,7 +1,9 @@
 package com.example.project.weixin.service;
 
+import com.example.project.api.accessToken.AccessTokenRedis;
 import com.example.project.api.hitokoto.HitokotoUtil;
 import com.example.project.api.tuling.TulingUtil;
+import com.example.project.api.userInfo.UserInfoService;
 import com.example.project.weixin.bean.resp.Article;
 import com.example.project.weixin.bean.resp.NewsMessage;
 import com.example.project.weixin.bean.resp.TextMessage;
@@ -17,6 +19,12 @@ import java.util.Map;
 
 @Service
 public class CoreService {
+
+	@Autowired
+	AccessTokenRedis accessTokenRedis;
+	//收集用户信息
+	@Autowired
+	UserInfoService userInfoService;
 
 	/**图灵API智能聊天接口功能*/
 	@Autowired
@@ -106,7 +114,7 @@ public class CoreService {
 				String eventType = requestMap.get("Event");
 				// 订阅
 				if (eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)) {
-					
+					userInfoService.weiUserInfo(fromUserName);
 					respContent = "欢迎关注微信公众号";
 				}
 				// 取消订阅

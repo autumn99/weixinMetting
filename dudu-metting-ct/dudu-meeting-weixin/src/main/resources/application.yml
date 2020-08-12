@@ -4,6 +4,34 @@ server:
 spring:
   application:
     name: dudu-metting-weixin
+  datasource:
+    name: test
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql://localhost:3306/weixin?serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 123456
 
+  redis:
+    port: 6379
+    password: 123456
+    host: 192.168.177.130
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 1000
+      shutdown-timeout: 100
+    database: 0
+
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
 logging:
   config: classpath:logback-spring.xml
+

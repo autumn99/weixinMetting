@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-@Component
+//@Component
 public class AccessTokenListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         System.out.println("服务启动");

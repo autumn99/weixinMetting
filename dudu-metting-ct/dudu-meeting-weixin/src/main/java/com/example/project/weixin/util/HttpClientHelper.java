@@ -22,6 +22,7 @@ public class HttpClientHelper {
 		  //  Protocol myhttps = new Protocol("https", new MySSLProtocolSocketFactory(), 443);
 		   // Protocol.registerProtocol("https", myhttps);
 		    PostMethod post = new PostMethod(url);
+
 		    if (request_body != null) {
 		    	//post.setRequestBody(request_body);
 		    	RequestEntity requestEntity = new StringRequestEntity(request_body, "text/xml", "UTF-8");

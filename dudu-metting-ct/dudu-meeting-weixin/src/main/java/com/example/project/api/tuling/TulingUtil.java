@@ -73,7 +73,7 @@ public class TulingUtil {
      * @param msg
      * @return
      */
-    String[] apiKey = {"ce91f9899e8448ef80bdc3a4f5e08dfd", "910e4c41cf28417692810f881e10e44f", "0fb09b7f228a48d7aedc222b84a9971d"};
+    String[] apiKey = {"ce91f9899e8448ef80bdc3a4f5e08dfd", "910e4c41cf28417692810f881e10e44f", "0fb09b7f228a48d7aedc222b84a9971d","bca0c85a17574e5bbf7edbbacb142608"};
     int i = 0;
     public String sendMessage(String msg) {
         //String apiKey="ce91f9899e8448ef80bdc3a4f5e08dfd";
