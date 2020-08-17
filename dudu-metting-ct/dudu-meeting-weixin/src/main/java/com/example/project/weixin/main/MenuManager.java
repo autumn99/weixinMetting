@@ -20,10 +20,10 @@ public class MenuManager {
  */
 	
 	public final static String REAL_URL="http://k6hyij.natappfree.cc/"; //个人花生壳
-	//public final static String REAL_URL = "http://wxmobsa.yidatec.com/weixin/"; //正式号服务器	
+	//public final static String REAL_URL = ""; //正式号服务器	
 	
-	public final static String appId="wxb31a69531cf161f1";
-	public final static String appSecret = "0cfe00663801485effc10bccb53632e7";
+	public final static String appId="";
+	public final static String appSecret = "";
 	
 	public static void resultMenu(){
 		// 调用接口获取access_token
